@@ -22,11 +22,14 @@
 !$color_teal     = "#4dd0e1"
 
 !$color_primary  = $color_blue
+' ...FontColor Properties (DefaultFontColor disabled)
+!$color_font     = $color_fg              
 
 skinparam backgroundColor   $color_bg
 
 skinparam class {
-  AttributeFontColor        $color_fg ' Keep dark Circle font color at header
+  ' Keep dark Circle font color at header
+  AttributeFontColor        $color_fg     
 }
 
 skinparam {
@@ -71,11 +74,11 @@ skinparam {
   AgentBackgroundColor       $color_bg_light
   AgentBorderColor           $color_primary
   ' AgentBorderThickness
-  ' AgentFontColor
+  AgentFontColor          $color_font
   ' AgentFontName
   ' AgentFontSize
   ' AgentFontStyle
-  ' AgentStereotypeFontColor
+  AgentStereotypeFontColor          $color_font
   ' AgentStereotypeFontName
   ' AgentStereotypeFontSize
   ' AgentStereotypeFontStyle
@@ -88,14 +91,14 @@ skinparam {
   ' ArchimateBorderColor
   '
   ' ArchimateBorderThickness 
-  ' ArchimateFontColor
+  ArchimateFontColor          $color_font
   '
   ' ArchimateFontName
   ' ArchimateFontSize
   '
   ' ArchimateFontStyle
   '
-  ' ArchimateStereotypeFontColor
+  ArchimateStereotypeFontColor          $color_font
   ' ArchimateStereotypeFontName
   '
   ' ArchimateStereotypeFontSize
@@ -105,7 +108,7 @@ skinparam {
   ' Arrow
   '
   ArrowColor $color_primary
-  ' ArrowFontColor
+  ArrowFontColor          $color_font
   ' ArrowFontName
   ' ArrowFontSize
   ' ArrowFontStyle
@@ -119,11 +122,11 @@ skinparam {
   '
   ArtifactBackgroundColor     $color_bg_light
   ArtifactBorderColor         $color_primary
-  ' ArtifactFontColor
+  ArtifactFontColor           $color_font
   ' ArtifactFontName
   ' ArtifactFontSize
   ' ArtifactFontStyle
-  ' ArtifactStereotypeFontColor
+  ArtifactStereotypeFontColor           $color_font
   ' ArtifactStereotypeFontName
   ' ArtifactStereotypeFontSize
   ' ArtifactStereotypeFontStyle
@@ -144,7 +147,7 @@ skinparam {
   '
   BoundaryBackgroundColor     $color_bg_light
   BoundaryBorderColor         $color_primary
-  ' BoundaryFontColor
+  BoundaryFontColor           $color_font
   ' BoundaryFontName
   ' BoundaryFontSize
   ' BoundaryFontStyle
@@ -172,11 +175,11 @@ skinparam {
   CardBackgroundColor     $color_bg_light
   CardBorderColor         $color_primary
   ' CardBorderThickness
-  ' CardFontColor
+  CardFontColor $color_font
   ' CardFontName
   ' CardFontSize
   ' CardFontStyle
-  ' CardStereotypeFontColor
+  CardStereotypeFontColor $color_font
   ' CardStereotypeFontName
   ' CardStereotypeFontSize
   ' CardStereotypeFontStyle
@@ -184,7 +187,7 @@ skinparam {
   '
   ' Circled character (in class header)
   '
-  ' CircledCharacterFontColor
+  CircledCharacterFontColor $color_font
   ' CircledCharacterFontName
   ' CircledCharacterFontSize
   ' CircledCharacterFontStyle
@@ -193,7 +196,7 @@ skinparam {
   '
   ' Class attribute
   '
-  ' ClassAttributeFontColor
+  ClassAttributeFontColor $color_font
   ' ClassAttributeFontName
   ' ClassAttributeFontSize
   ' ClassAttributeFontStyle
@@ -205,7 +208,7 @@ skinparam {
   ClassBackgroundColor   $color_bg_light
   ClassBorderColor       $color_fg
   ' ClassBorderThickness
-  ' ClassFontColor
+  ClassFontColor $color_font
   ' ClassFontName
   ' ClassFontSize
   ' ClassFontStyle
@@ -218,7 +221,7 @@ skinparam {
   '
   ' Class stereotype
   '
-  ' ClassStereotypeFontColor
+  ClassStereotypeFontColor $color_font
   ' ClassStereotypeFontName
   ' ClassStereotypeFontSize
   ' ClassStereotypeFontStyle
@@ -228,11 +231,11 @@ skinparam {
   '
   CloudBackgroundColor        $color_bg_light
   CloudBorderColor            $color_primary
-  ' CloudFontColor
+  CloudFontColor $color_font
   ' CloudFontName
   ' CloudFontSize
   ' CloudFontStyle
-  ' CloudStereotypeFontColor
+  CloudStereotypeFontColor $color_font
   ' CloudStereotypeFontName
   ' CloudStereotypeFontSize
   ' CloudStereotypeFontStyle
@@ -252,11 +255,11 @@ skinparam {
   ComponentBackgroundColor       $color_bg_light
   ComponentBorderColor           $color_primary
   ' ComponentBorderThickness
-  ' ComponentFontColor
+  ComponentFontColor $color_font
   ' ComponentFontName
   ' ComponentFontSize
   ' ComponentFontStyle
-  ' ComponentStereotypeFontColor
+  ComponentStereotypeFontColor $color_font
   ' ComponentStereotypeFontName
   ' ComponentStereotypeFontSize
   ' ComponentStereotypeFontStyle
@@ -288,11 +291,11 @@ skinparam {
   '
   DatabaseBackgroundColor       $color_bg_light
   DatabaseBorderColor           $color_primary
-  ' DatabaseFontColor
+  DatabaseFontColor             $color_font
   ' DatabaseFontName
   ' DatabaseFontSize
   ' DatabaseFontStyle
-  ' DatabaseStereotypeFontColor
+  DatabaseStereotypeFontColor   $color_font
   ' DatabaseStereotypeFontName
   ' DatabaseStereotypeFontSize
   ' DatabaseStereotypeFontStyle
@@ -319,11 +322,11 @@ skinparam {
   ' DesignedBackgroundColor
   ' DesignedBorderColor
   ' DesignedDomainBorderThickness
-  ' DesignedDomainFontColor
+  DesignedDomainFontColor   $color_font
   ' DesignedDomainFontName
   ' DesignedDomainFontSize
   ' DesignedDomainFontStyle
-  ' DesignedDomainStereotypeFontColor
+  DesignedDomainStereotypeFontColor   $color_font
   ' DesignedDomainStereotypeFontName
   ' DesignedDomainStereotypeFontSize
   ' DesignedDomainStereotypeFontStyle
@@ -340,11 +343,11 @@ skinparam {
   ' DomainBackgroundColor
   ' DomainBorderColor
   ' DomainBorderThickness
-  ' DomainFontColor
+  DomainFontColor   $color_font
   ' DomainFontName
   ' DomainFontSize
   ' DomainFontStyle
-  ' DomainStereotypeFontColor
+  DomainStereotypeFontColor   $color_font
   ' DomainStereotypeFontName
   ' DomainStereotypeFontSize
   ' DomainStereotypeFontStyle
@@ -356,11 +359,11 @@ skinparam {
   '
   EntityBackgroundColor $color_bg_light
   EntityBorderColor     $color_primary
-  ' EntityFontColor
+  EntityFontColor   $color_font
   ' EntityFontName
   ' EntityFontSize
   ' EntityFontStyle
-  ' EntityStereotypeFontColor
+  EntityStereotypeFontColor   $color_font
   
   '
   ' Entity stereotype
@@ -376,7 +379,7 @@ skinparam {
   '
   FileBackgroundColor $color_bg_light
   FileBorderColor     $color_primary
-  ' FileFontColor
+  FileFontColor   $color_font
   ' FileFontName
   ' FileFontSize
   ' FileFontStyle
@@ -384,7 +387,7 @@ skinparam {
   '
   ' File stereotype
   '
-  ' FileStereotypeFontColor
+  FileStereotypeFontColor   $color_font
   ' FileStereotypeFontName
   ' FileStereotypeFontSize
   ' FileStereotypeFontStyle
@@ -396,7 +399,7 @@ skinparam {
   '
   FolderBackgroundColor $color_bg_light
   FolderBorderColor     $color_primary
-  ' FolderFontColor
+  FolderFontColor   $color_font
   ' FolderFontName
   ' FolderFontSize
   ' FolderFontStyle
@@ -404,12 +407,12 @@ skinparam {
   '
   ' Folder stereotype
   '
-  ' FolderStereotypeFontColor
+  FolderStereotypeFontColor   $color_font
   ' FolderStereotypeFontName
   ' FolderStereotypeFontSize
   ' FolderStereotypeFontStyle
   '
-  ' FooterFontColor
+  FooterFontColor   $color_font
   '
   ' FooterFontName
   ' FooterFontSize
@@ -421,11 +424,11 @@ skinparam {
   '
   FrameBackgroundColor       $color_bg_light
   FrameBorderColor           $color_primary
-  ' FrameFontColor
+  FrameFontColor    $color_font
   ' FrameFontName
   ' FrameFontSize
   ' FrameFontStyle
-  ' FrameStereotypeFontColor
+  FrameStereotypeFontColor    $color_font
   ' FrameStereotypeFontName
   ' FrameStereotypeFontSize
   ' FrameStereotypeFontStyle
@@ -440,7 +443,7 @@ skinparam {
   ' Guillemet
   '
   ' Handwritten
-  ' HeaderFontColor
+  HeaderFontColor   $color_font
   '
   ' HeaderFontName
   ' HeaderFontSize
@@ -470,11 +473,11 @@ skinparam {
   '
   InterfaceBackgroundColor       $color_bg_light
   InterfaceBorderColor           $color_primary
-  ' InterfaceFontColor
+  InterfaceFontColor    $color_font
   ' InterfaceFontName
   ' InterfaceFontSize
   ' InterfaceFontStyle
-  ' InterfaceStereotypeFontColor
+  InterfaceStereotypeFontColor    $color_font
   ' InterfaceStereotypeFontName
   ' InterfaceStereotypeFontSize
   ' InterfaceStereotypeFontStyle
@@ -485,7 +488,7 @@ skinparam {
   LegendBackgroundColor   $color_bg_light
   LegendBorderColor       $color_fg
   ' LegendBorderThickness
-  ' LegendFontColor
+  LegendFontColor   $color_font
   ' LegendFontName
   ' LegendFontSize
   ' LegendFontStyle
@@ -502,13 +505,13 @@ skinparam {
   '
   ' MachineBorderThickness
   '
-  ' MachineFontColor
+  MachineFontColor    $color_font
   ' MachineFontName
   '
   ' MachineFontSize
   ' MachineFontStyle
   '
-  ' MachineStereotypeFontColor
+  MachineStereotypeFontColor    $color_font
   '
   ' MachineStereotypeFontName
   ' MachineStereotypeFontSize
@@ -526,11 +529,11 @@ skinparam {
   '
   NodeBackgroundColor       $color_bg_light
   NodeBorderColor           $color_primary
-  ' NodeFontColor
+  NodeFontColor   $color_font
   ' NodeFontName
   ' NodeFontSize
   ' NodeFontStyle
-  ' NodeStereotypeFontColor
+  NodeStereotypeFontColor   $color_font
   ' NodeStereotypeFontName
   ' NodeStereotypeFontSize
   ' NodeStereotypeFontStyle
@@ -553,18 +556,18 @@ skinparam {
   '
   ' Object
   '
-  ' ObjectAttributeFontColor
+  ObjectAttributeFontColor    $color_font
   ' ObjectAttributeFontName
   ' ObjectAttributeFontSize
   ' ObjectAttributeFontStyle
   ObjectBackgroundColor       $color_bg_light
   ObjectBorderColor           $color_primary
   ' ObjectBorderThickness
-  ' ObjectFontColor
+  ObjectFontColor     $color_font
   ' ObjectFontName
   ' ObjectFontSize
   ' ObjectFontStyle
-  ' ObjectStereotypeFontColor
+  ObjectStereotypeFontColor     $color_font
   ' ObjectStereotypeFontName
   ' ObjectStereotypeFontSize
   ' ObjectStereotypeFontStyle
@@ -579,7 +582,7 @@ skinparam {
   ' PackageFontName
   ' PackageFontSize
   ' PackageFontStyle
-  ' PackageStereotypeFontColor
+  PackageStereotypeFontColor    $color_font
   ' PackageStereotypeFontName
   ' PackageStereotypeFontSize
   ' PackageStereotypeFontStyle
@@ -599,12 +602,12 @@ skinparam {
   '
   ParticipantBackgroundColor $color_bg_light
   ParticipantBorderColor     $color_primary
-  ' ParticipantFontColor
+  ParticipantFontColor    $color_font
   ' ParticipantFontName
   ' ParticipantFontSize
   ' ParticipantFontStyle
   ' ParticipantPadding
-  ' ParticipantStereotypeFontColor
+  ParticipantStereotypeFontColor    $color_font
   ' ParticipantStereotypeFontName
   ' ParticipantStereotypeFontSize
   ' ParticipantStereotypeFontStyle
@@ -615,7 +618,7 @@ skinparam {
   PartitionBackgroundColor transparent
   PartitionBorderColor     $color_fg
   ' PartitionBorderThickness
-  ' PartitionFontColor
+  PartitionFontColor    $color_font
   ' PartitionFontName
   ' PartitionFontSize
   ' PartitionFontStyle
@@ -634,11 +637,11 @@ skinparam {
   QueueBackgroundColor       $color_bg_light
   QueueBorderColor           $color_primary
   ' QueueBorderThickness
-  ' QueueFontColor
+  QueueFontColor    $color_font
   ' QueueFontName
   ' QueueFontSize
   ' QueueFontStyle
-  ' QueueStereotypeFontColor
+  QueueStereotypeFontColor    $color_font
   ' QueueStereotypeFontName
   ' QueueStereotypeFontSize
   ' QueueStereotypeFontStyle
@@ -651,11 +654,11 @@ skinparam {
   RectangleBackgroundColor       $color_bg_light
   RectangleBorderColor           $color_primary
   ' RectangleBorderThickness
-  ' RectangleFontColor
+  RectangleFontColor    $color_font
   ' RectangleFontName
   ' RectangleFontSize
   ' RectangleFontStyle
-  ' RectangleStereotypeFontColor
+  RectangleStereotypeFontColor    $color_font
   ' RectangleStereotypeFontName
   ' RectangleStereotypeFontSize
   ' RectangleStereotypeFontStyle
@@ -665,13 +668,13 @@ skinparam {
   ' RequirementBorderColor
   ' RequirementBorderThickness
   '
-  ' RequirementFontColor
+  RequirementFontColor    $color_font
   '
   ' RequirementFontName
   ' RequirementFontSize
   '
   ' RequirementFontStyle
-  ' RequirementStereotypeFontColor
+  RequirementStereotypeFontColor    $color_font
   '
   ' RequirementStereotypeFontName
   '
@@ -692,7 +695,7 @@ skinparam {
   '
   SequenceBoxBackgroundColor $color_bg_light
   SequenceBoxBorderColor     $color_primary
-  ' SequenceBoxFontColor
+  SequenceBoxFontColor    $color_font
   ' SequenceBoxFontName
   ' SequenceBoxFontSize
   ' SequenceBoxFontStyle
@@ -700,7 +703,7 @@ skinparam {
   '
   ' Sequence delay
   '
-  ' SequenceDelayFontColor
+  SequenceDelayFontColor    $color_font
   ' SequenceDelayFontName
   ' SequenceDelayFontSize
   ' SequenceDelayFontStyle
@@ -711,7 +714,7 @@ skinparam {
   SequenceDividerBackgroundColor   $color_bg_light
   SequenceDividerBorderColor       $color_fg
   ' SequenceDividerBorderThickness
-  ' SequenceDividerFontColor
+  SequenceDividerFontColor    $color_font
   ' SequenceDividerFontName
   ' SequenceDividerFontSize
   ' SequenceDividerFontStyle
@@ -723,11 +726,11 @@ skinparam {
   ' SequenceGroupBodyBackgroundColor
   SequenceGroupBorderColor           $color_fg
   ' SequenceGroupBorderThickness
-  ' SequenceGroupFontColor
+  SequenceGroupFontColor    $color_font
   ' SequenceGroupFontName
   ' SequenceGroupFontSize
   ' SequenceGroupFontStyle
-  ' SequenceGroupHeaderFontColor
+  SequenceGroupHeaderFontColor    $color_font
   ' SequenceGroupHeaderFontName
   ' SequenceGroupHeaderFontSize
   ' SequenceGroupHeaderFontStyle
@@ -759,7 +762,7 @@ skinparam {
   SequenceReferenceBackgroundColor        transparent
   SequenceReferenceBorderColor            $color_fg
   ' SequenceReferenceBorderThickness
-  ' SequenceReferenceFontColor
+  SequenceReferenceFontColor    $color_font
   ' SequenceReferenceFontName
   ' SequenceReferenceFontSize
   ' SequenceReferenceFontStyle
@@ -768,7 +771,7 @@ skinparam {
   '
   ' Sequence stereotype
   '
-  ' SequenceStereotypeFontColor
+  SequenceStereotypeFontColor   $color_font
   ' SequenceStereotypeFontName
   ' SequenceStereotypeFontSize
   ' SequenceStereotypeFontStyle
@@ -783,16 +786,16 @@ skinparam {
   '
   StackBackgroundColor       $color_bg_light
   StackBorderColor           $color_primary
-  ' StackFontColor
+  StackFontColor    $color_font
   ' StackFontName
   ' StackFontSize
   ' StackFontStyle
-  ' StackStereotypeFontColor
+  StackStereotypeFontColor    $color_font
   ' StackStereotypeFontName
   ' StackStereotypeFontSize
   ' StackStereotypeFontStyle
 
-  ' StateAttributeFontColor
+  StateAttributeFontColor   $color_font
   ' StateAttributeFontName
   '
   ' StateAttributeFontSize
@@ -804,7 +807,7 @@ skinparam {
   StateBackgroundColor    $color_bg_light
   StateBorderColor        $color_primary
   StateEndColor           $color_red
-  ' StateFontColor
+  StateFontColor    $color_font
   ' StateFontName
   ' StateFontSize
   ' StateFontStyle
@@ -831,11 +834,11 @@ skinparam {
   '
   StorageBackgroundColor $color_bg_light
   StorageBorderColor     $color_fg
-  ' StorageFontColor
+  StorageFontColor    $color_font
   ' StorageFontName
   ' StorageFontSize
   ' StorageFontStyle
-  ' StorageStereotypeFontColor
+  StorageStereotypeFontColor    $color_font
   ' StorageStereotypeFontName
   ' StorageStereotypeFontSize
   ' StorageStereotypeFontStyle
@@ -849,7 +852,7 @@ skinparam {
   SwimlaneBorderColor            $color_fg
   ' SwimlaneBorderThickness
   ' SwimlaneTitleBackgroundColor
-  ' SwimlaneTitleFontColor
+  SwimlaneTitleFontColor    $color_font
   ' SwimlaneTitleFontName
   ' SwimlaneTitleFontSize
   ' SwimlaneTitleFontStyle
@@ -861,7 +864,7 @@ skinparam {
   '
   ' Timing
   '
-  ' TimingFontColor
+  TimingFontColor   $color_font
   ' TimingFontName
   ' TimingFontSize
   ' TimingFontStyle
@@ -873,7 +876,7 @@ skinparam {
   ' TitleBorderColor
   ' TitleBorderRoundCorner
   ' TitleBorderThickness
-  ' TitleFontColor
+  TitleFontColor    $color_font
   ' TitleFontName
   ' TitleFontSize
   ' TitleFontStyle
@@ -884,11 +887,11 @@ skinparam {
   UsecaseBackgroundColor       $color_bg_light
   UsecaseBorderColor           $color_primary
   ' UsecaseBorderThickness
-  ' UsecaseFontColor
+  UsecaseFontColor    $color_font
   ' UsecaseFontName
   ' UsecaseFontSize
   ' UsecaseFontStyle
-  ' UsecaseStereotypeFontColor
+  UsecaseStereotypeFontColor    $color_font
   ' UsecaseStereotypeFontName
   ' UsecaseStereotypeFontSize
   ' UsecaseStereotypeFontStyle
