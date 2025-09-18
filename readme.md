@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-JetBrains:
+<!-- JetBrains:
 
-![Screenshot of WebStorm with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane](docs/ide-screenshots/jetbrains.png)
+![Screenshot of WebStorm with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane](docs/ide-screenshots/jetbrains.png) -->
 
 Visual Studio Code:
 
@@ -17,7 +17,7 @@ Visual Studio Code:
 ```puml
 @startuml
 
-!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+!include https://raw.githubusercontent.com/brunofrancoucu/plantuml-dark-contrast-theme/main/theme.puml
 
 Bob->Alice : hello
 
