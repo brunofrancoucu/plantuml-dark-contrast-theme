@@ -1,4 +1,6 @@
-# [One Dark](https://github.com/atom/atom/tree/v1.53.0/packages/one-dark-ui) [PlantUML](https://plantuml.com) theme
+# [One Dark Contrast](https://github.com/brunofrancoucu/plantuml-dark-contrast-theme) [PlantUML](https://plantuml.com) theme
+
+Forked from [One Dark](https://github.com/atom/atom/tree/v1.53.0/packages/one-dark-ui)
 
 ## Screenshots
 
@@ -8,7 +10,9 @@
 
 Visual Studio Code:
 
-![Screenshot of Visual Studio Code with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane](docs/ide-screenshots/vs-code.png)
+<!-- ![Screenshot of Visual Studio Code with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane](docs/ide-screenshots/vs-code.png) -->
+
+![Screenshot of Visual Studio Code with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane, PlantUML class diagram with One Dark Theme](docs/example-1.JPG)
 
 ## Usage
 
@@ -23,29 +27,4 @@ Bob->Alice : hello
 
 @enduml
 ```
-
-## Examples
-
-Sequence diagram:
-
-![PlantUML sequence diagram with One Dark theme](examples/sequence.svg)
-
-Use case diagram:
-
-![PlantUML use case diagram with One Dark theme](examples/use-case.svg)
-
-Class diagram:
-
-![PlantUML class diagram with One Dark Theme](examples/class.svg)
-
-Activity diagram:
-
-![PlantUML activity diagram with One Dark theme](examples/activity.svg)
-
-Component diagram:
-
-![PlantUML component diagram with One Dark theme](examples/component.svg)
-
-State diagram:
-
-![PlantUML state diagram with One Dark theme](examples/state.svg)
+![Screenshot of Visual Studio Code with PlantUML diagram code in left pane and diagram preview with One Dark PlantUML theme in right pane, PlantUML class diagram with One Dark Theme](docs/example-2.JPG)
